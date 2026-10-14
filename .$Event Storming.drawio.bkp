@@ -1,0 +1,316 @@
+<mxfile host="Electron">
+  <diagram name="Бухгалтерский учёт" id="NFVSVrrTgoApyAItyOr-">
+    <mxGraphModel dx="527" dy="2009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8foCAFPLKYiK_42LyMsu-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="320" width="860" x="440" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Команда" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Событие" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="Политика" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#FFFFFF,#CCCC00);" value="Агрегат" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Актор&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-8" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Бухгалтер" vertex="1">
+          <mxGeometry height="50" width="120" x="450" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-10" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Создать ручную операцию" vertex="1">
+          <mxGeometry height="50" width="120" x="630" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-12" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#E3C800,#CCCC00);fontColor=light-dark(#000000,#000000);strokeColor=#B09500;" value="Учётный документ" vertex="1">
+          <mxGeometry height="50" width="120" x="810" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Ручная операция создана" vertex="1">
+          <mxGeometry height="50" width="120" x="990" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#D80073,#B266FF);fontColor=#ffffff;strokeColor=#A50040;gradientColor=none;" value="Бизнес-правило" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Модели чтения" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="Внешние системы" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-16" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Бухгалтер" vertex="1">
+          <mxGeometry height="50" width="120" x="450" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-18" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Добавить проводку" vertex="1">
+          <mxGeometry height="50" width="120" x="630" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-20" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#E3C800,#CCCC00);fontColor=light-dark(#000000,#000000);strokeColor=#B09500;" value="Учётный документ" vertex="1">
+          <mxGeometry height="50" width="120" x="810" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-24" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Проводка добавлена" vertex="1">
+          <mxGeometry height="50" width="120" x="990" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#D80073,#B266FF);fontColor=#ffffff;strokeColor=#A50040;gradientColor=none;" value="БП-1" vertex="1">
+          <mxGeometry height="50" width="120" x="1170" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=23;" value="Сценарий 1 — Ручное создание проводки" vertex="1">
+          <mxGeometry height="80" width="360" x="440" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="340" width="860" x="440" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-30" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Бухгалтер" vertex="1">
+          <mxGeometry height="50" width="120" x="470" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-32" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Загрузить банковскую выписку" vertex="1">
+          <mxGeometry height="50" width="120" x="650" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-34" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-35" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#E3C800,#CCCC00);fontColor=light-dark(#000000,#000000);strokeColor=#B09500;" value="&amp;nbsp;Банковская выписка" vertex="1">
+          <mxGeometry height="50" width="120" x="830" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-36" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="590" />
+              <mxPoint x="450" y="590" />
+              <mxPoint x="450" y="645" />
+            </Array>
+            <mxPoint x="470" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-53" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-37" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Выписка загружена&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="1010" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-40" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="8foCAFPLKYiK_42LyMsu-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="Автоматически начать&lt;br/&gt;формирование" vertex="1">
+          <mxGeometry height="50" width="155" x="470" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-42" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="800" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#E3C800,#CCCC00);fontColor=light-dark(#000000,#000000);strokeColor=#B09500;" value="Учётный документ" vertex="1">
+          <mxGeometry height="50" width="120" x="845" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-44" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8foCAFPLKYiK_42LyMsu-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1055" y="594.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Сформировать проводки" vertex="1">
+          <mxGeometry height="50" width="120" x="680" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-46" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#D80073,#B266FF);fontColor=#ffffff;strokeColor=#A50040;gradientColor=none;" value="БП-3" vertex="1">
+          <mxGeometry height="50" width="120" x="1170" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=23;" value="Сценарий 2 — Загрузка банковской выписки" vertex="1">
+          <mxGeometry height="80" width="360" x="440" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-49" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;БП-1&lt;/h1&gt;&lt;p&gt;При добавлении проводки учётный документ проверяет допустимость корреспонденции счетов. При ошибке команда отклоняется; событие&lt;br/&gt;«Проводка добавлена» не возникает.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="330" x="450" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-51" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="8foCAFPLKYiK_42LyMsu-50" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="965" y="645" as="sourcePoint" />
+            <mxPoint x="1170" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-50" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="&lt;div&gt;Проводки сформированы&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="1010" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-52" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#D80073,#B266FF);fontColor=#ffffff;strokeColor=#A50040;gradientColor=none;" value="БП-2" vertex="1">
+          <mxGeometry height="50" width="120" x="1170" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-54" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;БП-2&lt;/h1&gt;&lt;p&gt;При загрузке проверяются формат и целостность файла. При ошибке файл отклоняется целиком; повторная загрузка идентичного файла&lt;br/&gt;блокируется по хешу.&amp;nbsp;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="330" x="440" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-55" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;БП-3&lt;/h1&gt;&lt;p&gt;Автоматически формируемые проводки должны проходить проверку корреспонденции счетов. При ошибке успешное событие о формировании не&lt;br/&gt;возникает&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="330" x="790" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="320" width="860" x="1410" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-57" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-58" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Бухгалтер" vertex="1">
+          <mxGeometry height="50" width="120" x="1420" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-59" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-60" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Провести документ" vertex="1">
+          <mxGeometry height="50" width="120" x="1600" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-61" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-62" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#E3C800,#CCCC00);fontColor=light-dark(#000000,#000000);strokeColor=#B09500;" value="Учётный документ" vertex="1">
+          <mxGeometry height="50" width="120" x="1780" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-63" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Документ проведён" vertex="1">
+          <mxGeometry height="50" width="120" x="1960" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-70" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2080" y="155" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-99" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-98" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-72" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#D80073,#B266FF);fontColor=#ffffff;strokeColor=#A50040;gradientColor=none;" value="БП-4" vertex="1">
+          <mxGeometry height="50" width="120" x="2140" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=23;" value="Сценарий 1 — Проведение учётного документа" vertex="1">
+          <mxGeometry height="80" width="360" x="1410" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="220" width="860" x="1410" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-75" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-76" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Бухгалтер" vertex="1">
+          <mxGeometry height="50" width="120" x="1440" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-77" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-78" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Сторнировать документ" vertex="1">
+          <mxGeometry height="50" width="120" x="1620" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-79" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-80" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#E3C800,#CCCC00);fontColor=light-dark(#000000,#000000);strokeColor=#B09500;" value="&amp;nbsp;Банковская выписка" vertex="1">
+          <mxGeometry height="50" width="120" x="1800" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-82" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-83" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="&lt;div&gt;Документ сторнирован&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="1980" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-91" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=23;" value="Сценарий 2 — Исправление проведённого документа" vertex="1">
+          <mxGeometry height="80" width="360" x="1410" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-92" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;БП-4&lt;/h1&gt;&lt;p&gt;При проведении должен соблюдаться принцип двойной записи: сумма дебетовых оборотов равна сумме кредитовых.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="330" x="1420" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-95" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#D80073,#B266FF);fontColor=#ffffff;strokeColor=#A50040;gradientColor=none;" value="БП-6" vertex="1">
+          <mxGeometry height="50" width="120" x="2140" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-96" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;БП-6&lt;/h1&gt;&lt;p&gt;Проведённый документ нельзя редактировать напрямую. Исправление выполняется сторно в открытом периоде.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="330" x="1410" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-98" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#D80073,#B266FF);fontColor=#ffffff;strokeColor=#A50040;gradientColor=none;" value="БП-5" vertex="1">
+          <mxGeometry height="50" width="120" x="2140" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-100" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;БП-5&lt;/h1&gt;&lt;p&gt;Проводить документ можно только в открытом учётном периоде. При закрытом периоде команда отклоняется&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="330" x="1780" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-101" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="110" width="550" x="1410" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-102" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-103" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Бухгалтер" vertex="1">
+          <mxGeometry height="50" width="120" x="1440" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-104" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-105" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Сформировать ОСВ по счёту / субконто" vertex="1">
+          <mxGeometry height="50" width="190" x="1590" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-107" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Оборотно-сальдовая ведомость" vertex="1">
+          <mxGeometry height="50" width="120" x="1820" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-110" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=23;" value="Получение оборотно-сальдовой ведомости" vertex="1">
+          <mxGeometry height="80" width="360" x="1410" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="220" width="860" x="1410" y="-310" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-114" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-115" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Главный бухгалтер" vertex="1">
+          <mxGeometry height="50" width="120" x="1440" y="-270" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-116" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-117" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Закрыть период" vertex="1">
+          <mxGeometry height="50" width="120" x="1620" y="-270" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-118" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-119" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#E3C800,#CCCC00);fontColor=light-dark(#000000,#000000);strokeColor=#B09500;" value="&amp;nbsp;Банковская выписка" vertex="1">
+          <mxGeometry height="50" width="120" x="1800" y="-270" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-120" edge="1" parent="1" source="8foCAFPLKYiK_42LyMsu-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8foCAFPLKYiK_42LyMsu-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-121" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Период закрыт" vertex="1">
+          <mxGeometry height="50" width="120" x="1980" y="-270" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-122" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=23;" value="Закрытие учётного периода" vertex="1">
+          <mxGeometry height="80" width="360" x="1410" y="-390" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-123" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#D80073,#B266FF);fontColor=#ffffff;strokeColor=#A50040;gradientColor=none;" value="БП-7" vertex="1">
+          <mxGeometry height="50" width="120" x="2140" y="-270" as="geometry" />
+        </mxCell>
+        <mxCell id="8foCAFPLKYiK_42LyMsu-124" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;БП-7&lt;/h1&gt;&lt;p&gt;Закрытый период повторно не открывается. Операции задним числом запрещены; контроль открытости при проведении реализует БП-5&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="330" x="1410" y="-190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
